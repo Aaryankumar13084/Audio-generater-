@@ -25,7 +25,7 @@ ctx.reply('👋 नमस्ते! मुझे कोई भी टेक्�
 
 bot.on('text', async (ctx) => {
     const text = ctx.message.text;
-    Console.log(text);
+    console.log(text);
     const lang = 'hi'; // हिंदी के लिए 'hi', इंग्लिश के लिए 'en'
 
     try {
