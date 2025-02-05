@@ -1,10 +1,10 @@
-require('dotenv').config();
+
 const { Telegraf } = require('telegraf');
 const googleTTS = require('google-tts-api');
 const fs = require('fs');
 const axios = require('axios');
 
-const bot = new Telegraf(process.env.BOT_TOKEN); // टोकन को .env से सेफ लोड करो
+const bot = new Telegraf('7072083860:AAE1ZPxUstthNurbzm7a9weHzMjwO8EQvHM'); // टोकन को .env से सेफ लोड करो
 
 // टेक्स्ट को 200 कैरेक्टर के पार्ट्स में डिवाइड करने के लिए फंक्शन
 function splitText(text, maxLength = 200) {
